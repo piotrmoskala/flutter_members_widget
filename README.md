@@ -1,6 +1,6 @@
 # members_widget
 
-Check members.dart to find easy-to-use widget to show groupped avatars e.g members of event. 
+Check members.dart to find easy-to-use widget to show grouppd avatars e.g members of event. 
 
 ![](docs/screenshot1.png)
 
