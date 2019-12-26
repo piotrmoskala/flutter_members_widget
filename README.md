@@ -1,16 +1,16 @@
 # members_widget
 
-Check members.dart to find easy-to-use widget to show grouppd avatars e.g members of event. 
+Check members.dart to find easy-to-use widget to show grouped avatars e.g members of some event 
 
 ![](docs/screenshot1.png)
 
-with grouping items that cannot be shown on the screen 
+with grouping items that cannot be shown on the screen beacuse widget is too small. 
 
 ![](docs/screenshot2.png)
 
 ## Getting Started
 
-You have to extend your data model with mixin 
+All you have to do is to extend your data model with `MemberMixin` 
 
 ``` dart
 abstract class MemberMixin {
@@ -22,7 +22,7 @@ abstract class MemberMixin {
 }
 ```
 
-for example let's create an User: 
+for example let's create an User data class: 
 
 ``` dart
 class User with MemberMixin {
@@ -49,7 +49,7 @@ class User with MemberMixin {
 }
 ```
 
-and then use it: 
+and then use it while creating widgets: 
 
 ``` dart 
  @override
